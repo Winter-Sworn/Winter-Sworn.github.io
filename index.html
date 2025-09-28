@@ -403,6 +403,7 @@ Free. In this moment unburdened. Untethered.
 You look up to find yourself in the temple&#39;s central chamber. Sunlight floods into the space from arched windows and ceiling skylights. The lattice of crystal bridges built over the top of the temple scatters flecks of prismatic light into the chamber itself. There&#39;s a permeated warmth here so potent it pierces through your haze with ease. It tries to part the fog, letting a seam of warm air rip open to offer you a way through. You hear (if:$dirge is true)[the dirge of the soon-dead](else-if:$choir is true)[the choir of return] on the other side singing out to you.
 Be quick, you don&#39;t have long. 
 
+
 (link:&quot;(*Go through*)&quot;)[(text-colour:#a5d8ff)[(*Go through*)]
 
 Are you certain? Who knows what lays at the other end of lucidity. It might be painful.
@@ -410,6 +411,8 @@ Are you certain? Who knows what lays at the other end of lucidity. It might be p
 [[(Yes. Let me feel it all.)]]
 
 [[(No. I don&#39;t want to see everything I might lose.)]]]
+
+[[(*No. Stay away from the lucid world*)|(No. I don&#39;t want to see everything I might lose.)]]
 ]]
 
 (link-replace:&quot;(Like a shell.)&quot;)[(replace:?namedHook1)[
@@ -420,6 +423,7 @@ Empty. Nothing left but fabric, flesh, and duty.
 You look up to find yourself in the temple&#39;s central chamber. Sunlight floods into the space from arched windows and ceiling skylights. The lattice of crystal bridges built over the top of the temple scatters flecks of prismatic light into the chamber itself. There&#39;s a warmth that permeates through here so potent it pierces through your haze with ease. It tries to part the fog, letting a seam of warm air rip open to offer you a way through. You hear (if:$dirge is true)[the dirge of the damned](else-if:$choir is true)[the choir of home] on the other side singing out to you.
 Be quick, you don&#39;t have long.
 
+
 (link:&quot;(*Go through*)&quot;)[(text-colour:#a5d8ff)[(*Go through*)]
 
 Are you certain? Who knows what lays at the other end of lucidity. It might be painful.
@@ -427,6 +431,8 @@ Are you certain? Who knows what lays at the other end of lucidity. It might be p
 [[(Yes. Let me feel it all.)]]
 
 [[(No. I don&#39;t want to see everything I might lose.)]]]
+
+[[(*No. Stay away from the lucid world*)|(No. I don&#39;t want to see everything I might lose.)]]
 ]]
 ]&lt;namedHook1|</tw-passagedata><tw-passagedata pid="42" name="(Yes.)" tags="" position="2350,1075" size="100,100">Love. This woman, Lithelle, loved you.
 (click: ?page)[==
@@ -481,7 +487,7 @@ Sadness, Winter-Sworn. You&#39;re going to miss them.
 </tw-passagedata><tw-passagedata pid="46" name="(No. I don&#39;t want to see everything I might lose.)" tags="" position="2700,1450" size="100,100">Yes. It&#39;s safer here in the haze, isn&#39;t it? Where it all feels so distant and quiet. You&#39;ll only hurt yourself if you leave. 
 (click: ?page)[==Forget what lays through the mist. They&#39;ll all forget you as well. 
 (click: ?page)[==
-You cling to the dissociative haze, drawing it tightly shut to keep anything too vivid from piercing through. Even the chamber&#39;s added warmth feels dulled down now - the tiniest trickle making its way in and granting a temporary comfort. It 
+You cling to the dissociative haze, drawing it tightly shut to keep anything too vivid from piercing through. Even the chamber&#39;s added warmth feels dulled down now - the tiniest trickle making its way in and granting a temporary comfort. 
 (click: ?page)[==Steam curls up in front of you and mingles with the hazy grey of your surroundings. It rises from a natural hot spring only a few steps ahead of you. Moss grows over rocks lining the spring&#39;s edge and spills down onto weathered cobblestones, before they fade away into the thickness of the haze.
 (click: ?page)[==
 You hear voices continuing (if:$dirge is true)[the dirge of the soon-dead](else-if:$choir is true)[the choir of return] behind you, but their bodies are distant and obscured. You make out only silhouettes and shapes. 
@@ -862,7 +868,9 @@ More voices flick back and forth between the echoes of the congregation and the 
 In an instant the haze is rent away from you, flayed off like a layer of skin subjected to a sharp knife. You gasp for breath, shutting your eyes tightly so you don&#39;t have to see what&#39;s around you. 
 (click: ?page)[==You can&#39;t look. 
 (click: ?page)[==Don&#39;t look.
-(click: ?page)[==Don&#39;t let yourself see them, Winter-Sworn. Don&#39;t let yourself see their faces. *Her* face. 
+(click: ?page)[==Don&#39;t let yourself see them, Winter-Sworn. 
+(click: ?page)[==Don&#39;t let yourself see their faces. 
+(click: ?page)[==*Her* face. 
 (click-goto: ?page, &quot;No cont 2&quot;)[==</tw-passagedata><tw-passagedata pid="86" name="No cont 2" tags="" position="2975,1450" size="100,100">&quot;May you be washed of all which tethers you to us,&quot; you hear echoed behind you. You shut your eyes even tighter. The voices are dangerously distinct within this forced alertness. Think too much and you run the risk of recognising them.
 
 (after:time+6s)[==&quot;May you be washed of the titles you hold,&quot; the water rushes over your ears with a loud crash, like the snapping and rapid falling of a pine tree in the woods. 
@@ -882,7 +890,7 @@ The warmth flooding over flesh only makes the cold outside feel more imminent. T
 (click: ?page)[==But it&#39;s not quick enough. 
 (click: ?page)[==You catch a glimpse of Lithelle&#39;s eyes. 
 (click: ?page)[==They are rancid with grief.
-
+(click: ?page)[==
 [[Blink.|Blink 3]]</tw-passagedata><tw-passagedata pid="89" name="Blink 3" tags="" position="3300,1450" size="100,100">You&#39;re standing by the alter of the temple nave, already longing for the drops of warmth you could feel within the inner sanctum. You cling to the feeling as your last handhold off a sheer cliff-face, obliterating waves sundering the rocks beneath your dangling feet. 
 (click: ?page)[==
 You feel it slipping away. 
@@ -899,7 +907,7 @@ Through the thin haze a figure emerges, looming above you and casting shadows ac
 
 [[(A spirit of reprieve come to grant me refuge?)|(A spirit of reprieve come to grant me refuge?) alt]]
 
-[[(The Spectre of Hope made manifest?)|(The Spectre of Hope made manifest?) alt]]</tw-passagedata><tw-passagedata pid="90" name="(The Afterlife&#39;s guardian ushering me toward my end?) alt" tags="" position="3400,1450" size="100,100">No. (display: &quot;She sways in scattered sunlight alt&quot;)</tw-passagedata><tw-passagedata pid="91" name="(A spirit of reprieve come to grant me refuge?) alt" tags="" position="3350,1525" size="100,100">She grants you what little she can. (display: &quot;She sways in scattered sunlight alt&quot;)</tw-passagedata><tw-passagedata pid="92" name="(The Spectre of Hope made manifest?) alt" tags="" position="3350,1375" size="100,100">Perhaps she is. (display: &quot;She sways in scattered sunlight alt&quot;)</tw-passagedata><tw-passagedata pid="93" name="She sways in scattered sunlight alt" tags="" position="3450,1450" size="100,100">She sways in scattered sunlight, gleaming through mournful silks. You know her, the haze is no longer thick enough to shroud her.
+[[(The Spectre of Hope made manifest?)|(The Spectre of Hope made manifest?) alt]]</tw-passagedata><tw-passagedata pid="90" name="(The Afterlife&#39;s guardian ushering me toward my end?) alt" tags="" position="3400,1450" size="100,100">No. (display: &quot;She sways in scattered sunlight alt&quot;)</tw-passagedata><tw-passagedata pid="91" name="(A spirit of reprieve come to grant me refuge?) alt" tags="" position="3350,1525" size="100,100">She grants you what little she can. (display: &quot;She sways in scattered sunlight alt&quot;)</tw-passagedata><tw-passagedata pid="92" name="(The Spectre of Hope made manifest?) alt" tags="" position="3350,1375" size="100,100">Perhaps she is. (display: &quot;She sways in scattered sunlight alt&quot;)</tw-passagedata><tw-passagedata pid="93" name="She sways in scattered sunlight alt" tags="" position="3450,1450" size="100,100">She sways in scattered sunlight, gleaming through mournful silks. You know her, the haze is no longer enough to shroud her.
 (click: ?page)[==
 (link:&quot;(Lithelle.)&quot;)[(text-colour:#a5d8ff)[(Lithelle.)]
 
