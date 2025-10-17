@@ -63,6 +63,7 @@ You adjust to the torrent of sunlight sieging your poorly-prepared retinae, allo
 (more:)[&quot;Dead asleep, even through all that knocking. Well. Can&#39;t sleep now I&#39;m afraid,&quot; his tone seems prepped to guide you out from drowsy delirium, low and delicate.
 &quot;It&#39;s [[time]],&quot; he informs, his silhouette stiffening.
 
+
 [[&quot;Time for what?&quot;|Time for what]]]</tw-passagedata><tw-passagedata pid="5" name="time" tags="" position="1250,1600" size="100,100">&quot;It&#39;s time.&quot;
 You latch onto those words. They sound ominous, don&#39;t they? Rightfully so. Today&#39;s the day you start the journey that&#39;s probably going to kill you. 
 (click: ?page)[==
@@ -244,12 +245,14 @@ You don&#39;t know how it&#39;s done, you barely know where to go, and yet every
 (click: ?page)[== You drift through the hollow streets of Mornwyn, tugged towards The Temple of Spirits by a glacial breeze. Every step is automated by muscle memory. The central road is eerily calm, the street a quagmire of semi-melted slurry. 
 (click: ?page)[==Old snow spills out across the city, course and crystalline as it weighs down rooftops. Some homes, long abandoned, have collapsed under the pressure after years of emptiness. Cracked windows and crumbling structures seem to howl in the slow breeze, wailing you an understanding requiem. The clunk and scrape of your boots on cobbles drags you through the blurry-grey passage of time. You move through the city in sections, blinking and finding yourself at a new corner each time you regain lucidity. 
 (click: ?page)[==
+
 [(link-replace:&quot;(I am un-life in waiting. The thing soon dead.)&quot;)[(replace:?namedHook1)[(text-colour:#a5d8ff)[(I am un-life in waiting. The thing soon dead.)]
 
 You are memento mori winter. Fate&#39;s newest face to all who follow this path.
 (click: ?page)[==
 Scattered in these thoughts, you don&#39;t see many of the faces hesitating to look at you whilst you haunt the central road. Their starving eyes study a living phantom, assessing its value — its chances of success. Those few faces you do catch seem hazy, like yellowed paintings of people you almost recognise. Beside each person stand notable absences — empty spaces where you know someone should be, but those faces are even fuzzier. The more you walk, the more absences you notice. Eventually, they outnumber the people entirely.
 (click: ?page)[==
+
 (link-goto:&#39;(*Focus on the absences*)&#39;,&#39;(Focus on the absences)&#39;)
 
 (link-goto:&#39;(*Focus on the faces*)&#39;,&#39;(Focus on the faces)&#39;)]]
@@ -260,6 +263,7 @@ Yes. You are oath-sworn liberation. The harbinger of lost warmth.
 (click: ?page)[==
 Scattered in these thoughts, you don&#39;t see many of the faces hesitating to look at you whilst you haunt the central road. Their starving eyes study a living phantom, assessing its value — its chances of success. Those few faces you do catch seem hazy, like yellowed paintings of people you almost recognise. Beside each person stand notable absences — empty spaces where you know someone should be, but those faces are even fuzzier. The more you walk, the more absences you notice. Eventually, they outnumber the people entirely.
 (click: ?page)[==
+
 (link-goto:&#39;(*Focus on the absences*)&#39;,&#39;(Focus on the absences)&#39;)
 
 (link-goto:&#39;(*Focus on the faces*)&#39;,&#39;(Focus on the faces)&#39;)]]
@@ -401,6 +405,8 @@ Lithelle. This future&#39;s name is Lithelle. This future has no choice but to p
 Her cold fingers hesitate to paint across your brow. 
 Something makes you feel as though you should move. (live:)[(if:$futurelost is &quot;0&quot;)[(set:$futurelost to &quot;1&quot;)]]
 
+
+
 [[(Straighten up)]]
 
 (if:$futurelost is &quot;2&quot;)[[(Lean down)]]
@@ -422,7 +428,8 @@ Is it even worth searching for anymore?
 
 [[(No.)]]]]</tw-passagedata><tw-passagedata pid="38" name="(Lean down)" tags="" position="2275,1350" size="100,100">Her hand shakes across your temple as paintbrush fingertips glide down your nose. She leans in, familiar lips seize only a second to brush over yours. This close, you are embraced by the finality of her comforting perfume. You realise that homesickness will smell like flowers in the rain.
 
-&quot;Come back to us.&quot; The fragile whisper is like air, barely heard at all.
+(click: ?page)[==&quot;Come back to us.&quot; The fragile whisper is like air, barely heard at all.
+(click: ?page)[==
 
 [[&quot;I will.&quot;]]
 
@@ -437,9 +444,10 @@ The last thing you notice before she fades away is a new hollowness to her. She&
 (click: ?page)[==
 Something of you is missing.
 
-(link:&quot;(What?)&quot;)[(text-colour:#a5d8ff)[(What?)]
 
-It&#39;s too late to think about. It&#39;s already gone.(set:$positive to it -1, $negative to it +1)
+(click: ?page)[==(link:&quot;(What?)&quot;)[(text-colour:#a5d8ff)[(What?)]
+
+It&#39;s too late to think about. It&#39;s already gone.
 (click: ?page)[==
 [[Blink.]]]</tw-passagedata><tw-passagedata pid="41" name="Blink." tags="" position="2500,1300" size="100,100">You&#39;re stepping forward, flanked by a procession who all shift alongside you. Figures march through the haze, weaving in and out as you try to discern their features but fail to do so in time. Their bodies seem to sway with otherworldly movements as they walk, the human shapes translucent and distorted as they move beyond the temple nave. For a moment you think they might be spirits too, joining you here as you float towards death, destiny, or any strange mix of the two. Instead you see that they are people draped in sheer, white linen so light it flows with every footstep. 
 (click: ?page)[==You look down and see that you too are enveloped in sheer linen, though yours is dyed a pale blue. The fabric warps the symbols painted across your flesh like a mosaic seen through crystal water. You feel so light.
